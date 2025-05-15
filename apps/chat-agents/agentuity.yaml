@@ -7,12 +7,16 @@
 
 # The version semver range required to run this project
 version: '>=0.0.119'
+
 # The ID of the project which is automatically generated
 project_id: proj_617bda7e572ae1d4e6692d3bda85aca6
+
 # The name of the project which is editable
 name: chat-agents
+
 # The description of the project which is editable
 description: Agents for Web Chat
+
 # The development configuration for the project
 development:
   # The port to run the development server on which can be overridden by setting the PORT environment variable
@@ -30,6 +34,7 @@ development:
     - --env-file=.env
     - --no-deprecation
     - .agentuity/index.js
+
 deployment:
   command: node
   args:
@@ -48,6 +53,7 @@ deployment:
     cpu: 500M
     # The disk size requirements
     disk: 100Mi
+
 # You should not need to change these value
 bundler:
   enabled: true
@@ -60,18 +66,15 @@ bundler:
     - node_modules/**
     - dist/**
     - src/**
+
 # The agents that are part of this project
 agents:
-  - # The ID of the Agent which is automatically generated
-    id: agent_f1fe183d28ced8903776011734f76c12
-    # The name of the Agent which is editable
+  - id: agent_f1fe183d28ced8903776011734f76c12
     name: chat
-    # The description of the Agent which is editable
     description: chat agent
+
 # Template configuration
 template:
   io:
-	  - # The ID of the Agent which is automatically generated
-	    type: webhook
-	    # The name of the Agent which is editable
-	    direction: source
+    - type: webhook
+      direction: source
