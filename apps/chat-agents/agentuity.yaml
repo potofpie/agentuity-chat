@@ -76,5 +76,6 @@ agents:
 # Template configuration
 template:
   io:
-    - type: webhook
+    - type: api
       direction: source
+			required: true
