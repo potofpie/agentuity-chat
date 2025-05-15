@@ -68,3 +68,6 @@ agents:
     name: chat
     # The description of the Agent which is editable
     description: chat agent
+template:
+	io: 
+ 		- wehhook
