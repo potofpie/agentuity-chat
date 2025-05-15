@@ -71,4 +71,7 @@ agents:
 # Template configuration
 template:
   io:
-    - wehhook
+	  - # The ID of the Agent which is automatically generated
+	    type: webhook
+	    # The name of the Agent which is editable
+	    direction: source
