@@ -1,5 +1,7 @@
 # Agentuity Chat
 
+[![Deploy with Agentuity](https://app.agentuity.com/img/deploy.svg)](https://app.agentuity.com/deploy)
+
 ## Overview
 
 Agentuity Chat is a web application that allows users to interact with an AI agent. The application is built using Next.js, TypeScript, and Tailwind CSS, and it provides a user-friendly interface for chatting with the AI.
